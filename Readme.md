@@ -18,3 +18,5 @@ Unfortunately, you cannot use the CircUp tool to upload the libraries because th
 * folder `adafruit_display_shapes`
 * folder `adafruit_display_text`
 * folder `adafruit_register`
+
+The folder will look like this: ![View of lib folder with libraries installed](lib_folder.webp)
