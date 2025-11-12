@@ -2,6 +2,8 @@
 
 This repository contains code to use the display and touch device of the ESP32-based [ThingPulse Color Kit Grande](https://thingpulse.com/product/esp32-wifi-color-display-kit-grande/) using the board image [ESP32-DevKitC-VE-WROVER](https://circuitpython.org/board/espressif_esp32_devkitc_v4_wrover/) which is a close match to this product.
 
+I have created a [blog post](https://gillius.org/blog/2025/11/circuitpython-on-thingpulse-color-kit-grande.html) detailing how to install CircuitPython on the kit and get the display and touch working.
+
 ## License
 
 This repository and its code is licensed under MIT license.
