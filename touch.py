@@ -27,7 +27,7 @@ def get_touch(scale: int = 1) -> tuple | None:
                 touch = touches[0]
                 translated = convert_touch(touch['x'], touch['y'])
                 return (translated[0] // scale, translated[1] // scale)
-    except RuntimeError:
+    except RuntimeError: # workaround https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch/issues/28
         pass
     
     return None
