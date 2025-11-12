@@ -26,7 +26,7 @@ _INIT_SEQUENCE = (
     b"\x29\x00"         # Display on
 )
 
-def make_display() -> ILI9488:
+def make_display():
     print("Releasing display and configuring SPI")
     displayio.release_displays()
 
