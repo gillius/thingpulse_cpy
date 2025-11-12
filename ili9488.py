@@ -22,7 +22,7 @@ _INIT_SEQUENCE = (
     # b"\xB6\x03\x02\x02\x3B" # Display Function Control from TFT_eSPI
     b"\xB7\x01\x06"     # Entry Mode Set
     b"\xF7\x04\xA9\x51\x2C\x82" # Adjust Control 3
-    b"\x11\x00"         # Exit Sleep then delay 0x78 (120ms)
+    b"\x11\x00"         # Exit Sleep
     b"\x29\x00"         # Display on
 )
 
